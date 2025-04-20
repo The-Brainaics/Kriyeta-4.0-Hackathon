@@ -1,0 +1,51 @@
+
+
+.billing-container {
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billing-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  .billing-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .billing-table th,
+  .billing-table td {
+    padding: 12px 15px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  
+  .billing-table th {
+    background-color: #374151;
+    color: #ffffff;
+  }
+  
+  .billing-table tr:nth-child(even) {
+    background-color: #f3f4f6;
+  }
+  
+  .billing-table tr:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .status-paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-unpaid {
+    color: red;
+    font-weight: bold;
+  }
+  
